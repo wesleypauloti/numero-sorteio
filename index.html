@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de Números</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorteio de Números</h1>
+        <form id="rangeForm">
+            <label for="maxNumber">Escolha o número máximo para o sorteio</label><br>
+            <input type="number" id="maxNumber" name="maxNumber" min="1" required>
+            <button type="submit">Definir</button>
+        </form>
+        <button id="sortearBtn" disabled>Sortear</button>
+        <div id="resultado"></div>
+        <div id="resultado2"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
